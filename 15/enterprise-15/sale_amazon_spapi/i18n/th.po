@@ -1,0 +1,355 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_amazon_spapi
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-06 12:46+0000\n"
+"PO-Revision-Date: 2022-06-10 15:35+0000\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__aws_access_key
+msgid "AWS Access Key"
+msgstr "อ"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__aws_secret_key
+msgid "AWS Secret Key"
+msgstr "รหัสลับ AWS"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__aws_session_token
+msgid "AWS Session Token"
+msgstr "โทเค็นเซสชัน AWS"
+
+#. module: sale_amazon_spapi
+#: model:ir.model,name:sale_amazon_spapi.model_amazon_account
+msgid "Amazon Account"
+msgstr "บัญชี Amazon"
+
+#. module: sale_amazon_spapi
+#: model:ir.model,name:sale_amazon_spapi.model_amazon_marketplace
+msgid "Amazon Marketplace"
+msgstr "ตลาด Amazon"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.authorization_error
+msgid "An error occurred"
+msgstr "เกิดข้อผิดพลาด"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.authorization_error
+msgid "An error occurred while linking your account with Amazon."
+msgstr "เกิดข้อผิดพลาดขณะเชื่อมโยงบัญชีของคุณกับ Amazon"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__auth_token
+msgid "Authorization Token"
+msgstr "โทเคนที่อนุญาต"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.authorization_error
+msgid "Back to my account"
+msgstr "กลับไปที่บัญชีของฉัน"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_marketplace__code
+msgid "Code"
+msgstr "โค้ด"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid "Could not establish the connection to the API."
+msgstr "ไม่สามารถสร้างการเชื่อมต่อกับ API ได้"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid "Could not establish the connection to the feed URL."
+msgstr "ไม่สามารถสร้างการเชื่อมต่อกับ URL ฟีดได้"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid "Could not establish the connection to the proxy."
+msgstr "ไม่สามารถสร้างการเชื่อมต่อกับพร็อกซีได้"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/controllers/onboarding.py:0
+#, python-format
+msgid "Could not find Amazon account with id %s"
+msgstr "ไม่พบบัญชี Amazon ที่มีรหัส %s"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_marketplace__domain
+msgid "Domain"
+msgstr "โดเมน"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid "Error code: %s; description: %s"
+msgstr "รหัสข้อผิดพลาด: %s; คำอธิบาย: %s"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields.selection,name:sale_amazon_spapi.selection__amazon_marketplace__region__eu-west-1
+msgid "Europe"
+msgstr "ยุโรป"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields.selection,name:sale_amazon_spapi.selection__amazon_marketplace__region__us-west-2
+msgid "Far East"
+msgstr "ตะวันออกไกล"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/models/amazon_account.py:0
+#, python-format
+msgid ""
+"Gift message:\n"
+"%s"
+msgstr ""
+"ข้อความของขวัญ:\n"
+"%s"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__access_token
+msgid "LWA Access Token"
+msgstr "โทเค็นการเข้าถึง LWA"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__refresh_token
+msgid "LWA Refresh Token"
+msgstr "โทเค็นการรีเฟรช LWA"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.amazon_account_view_form_inherit
+msgid "Link with Amazon"
+msgstr "เชื่อมโยงกับ Amazon"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.amazon_account_view_form_inherit
+msgid ""
+"Link your Amazon account with Odoo to start synchronizing your Amazon "
+"orders."
+msgstr ""
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields.selection,name:sale_amazon_spapi.selection__amazon_marketplace__region__us-east-1
+msgid "North America"
+msgstr "อเมริกาเหนือ"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_marketplace__region
+msgid "Region"
+msgstr "ภูมิภาค"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__restricted_data_token
+msgid "Restricted Data Token"
+msgstr "โทเค็นข้อมูลที่ถูกจำกัด"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_marketplace__seller_central_url
+msgid "Seller Central URL"
+msgstr "URL ศูนย์กลางผู้ขาย"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__seller_key
+msgid "Seller ID"
+msgstr "ไอดีผู้ขาย"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/models/amazon_account.py:0
+#, python-format
+msgid "Successfully updated the marketplaces available to this account!"
+msgstr "อัปเดตตลาดซื้อขายที่มีอยู่ในบัญชีนี้สำเร็จแล้ว!"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_marketplace__region
+msgid ""
+"The Amazon region of the marketplace. Please refer to the Selling Partner "
+"API documentation to find the correct region."
+msgstr ""
+"ภูมิภาค Amazon ของตลาด โปรดดูเอกสารประกอบของพาร์ทเนอร์การขาย API "
+"เพื่อค้นหาภูมิภาคที่ถูกต้อง"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__auth_token
+msgid ""
+"The MWS Authorization Token of the Amazon Seller Central account for Odoo"
+msgstr "โทเคนที่ได้รับอนุญาต MWS  ของบัญชี Amazon Seller Central สำหรับ Odoo"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__seller_key
+msgid "The Merchant ID of the Amazon Seller Central account"
+msgstr "ไอดีผู้ค้าของบัญชี Amazon Seller Central"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_marketplace__seller_central_url
+msgid "The Seller Central URL"
+msgstr ""
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid "The communication with the API failed."
+msgstr "การสื่อสารกับ API ล้มเหลว"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid ""
+"The communication with the API failed.\n"
+"Error code: %s; description: %s"
+msgstr ""
+"การสื่อสารกับ API ล้มเหลว\n"
+"รหัสข้อผิดพลาด: %s; คำอธิบาย: %s"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_marketplace__code
+msgid "The country code in ISO 3166-1 format"
+msgstr "รหัสประเทศในรูปแบบ ISO 3166-1"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_marketplace__domain
+msgid "The domain name associated with the marketplace"
+msgstr "ชื่อโดเมนที่เชื่อมโยงกับตลาดกลาง"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__refresh_token
+msgid "The long-lived token that can be exchanged for a new access token."
+msgstr ""
+"โทเค็นที่มีอายุการใช้งานยาวนานที่สามารถแลกเปลี่ยนเป็นโทเค็นการเข้าถึงใหม่ได้"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__aws_credentials_expiry
+msgid "The moment at which the AWS credentials become invalid."
+msgstr "ช่วงเวลาที่ข้อมูลรับรอง AWS ไม่ถูกต้อง"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__restricted_data_token_expiry
+msgid "The moment at which the Restricted Data Token becomes invalid."
+msgstr "ช่วงเวลาที่โทเค็นข้อมูลที่ถูกจำกัดไม่สามารถใช้งานได้"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__access_token_expiry
+msgid "The moment at which the token becomes invalid."
+msgstr "ช่วงเวลาที่โทเค็นใช้งานไม่ได้"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__aws_access_key
+msgid "The short-lived key used to identify the assumed ARN role on AWS."
+msgstr "คีย์อายุการใช้งานสั้นที่ใช้ในการระบุบทบาท ARN ที่สมมติบน AWS"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__aws_secret_key
+msgid ""
+"The short-lived key used to verify the access to the assumed ARN role on "
+"AWS."
+msgstr ""
+"คีย์อายุการใช้งานสั้นที่ใช้ในการตรวจสอบการเข้าถึงบทบาท ARN ที่สมมติบน AWS"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__restricted_data_token
+msgid ""
+"The short-lived token used instead of the LWA Access Token to access "
+"restricted data"
+msgstr ""
+"โทเค็นอายุการใช้งานสั้นที่ใช้แทนโทเค็นการเข้าถึง LWA "
+"เพื่อเข้าถึงข้อมูลที่จำกัด"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__access_token
+msgid "The short-lived token used to query Amazon API on behalf of a seller."
+msgstr "โทเค็นอายุการใช้งานสั้นที่ใช้ในการสืบค้น Amazon API ในนามของผู้ขาย"
+
+#. module: sale_amazon_spapi
+#: model:ir.model.fields,help:sale_amazon_spapi.field_amazon_account__aws_session_token
+msgid ""
+"The short-lived token used to query the SP-API with the assumed ARN role on "
+"AWS."
+msgstr ""
+"โทเค็นอายุการใช้งานสั้นที่ใช้ในการสืบค้น SP-API ด้วยบทบาท ARN ที่สมมติบน AWS"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.amazon_account_view_form_inherit
+msgid ""
+"This action will disconnect your account with Amazon and cannot be"
+"                                  undone. Are you sure you want to proceed?"
+msgstr ""
+
+#. module: sale_amazon_spapi
+#: model:ir.model,name:sale_amazon_spapi.model_stock_picking
+msgid "Transfer"
+msgstr "โอน"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.amazon_account_view_form_inherit
+msgid "Unlink account"
+msgstr "ยกเลิกการเชื่อมโยงบัญชี"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid "You first need to authorize the Amazon account %s."
+msgstr "คุณต้องอนุญาตบัญชี Amazon %s ก่อน"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/utils.py:0
+#, python-format
+msgid ""
+"You first need to set the marketplaces to synchronize for the Amazon account"
+" %s."
+msgstr "คุณต้องตั้งค่าตลาดกลางให้ซิงโครไนซ์กับบัญชี %s ของ Amazon ก่อน"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/models/amazon_account.py:0
+#, python-format
+msgid ""
+"You reached the maximum number of requests for this operation; please try "
+"again later."
+msgstr ""
+"คุณได้มีคำขอถึงจำนวนสูงสุดสำหรับการดำเนินการนี้แล้ว "
+"กรุณาลองใหม่อีกครั้งในภายหลัง"
+
+#. module: sale_amazon_spapi
+#: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.amazon_account_view_form_inherit
+msgid "Your Amazon account is linked with Odoo."
+msgstr "บัญชี Amazon ของคุณเชื่อมโยงกับ Odoo"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/models/amazon_account.py:0
+#, python-format
+msgid ""
+"[%s] %s\n"
+"Condition: %s - %s"
+msgstr ""
+"[%s] %s\n"
+"เงื่อนไข: %s - %s"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/models/amazon_account.py:0
+#, python-format
+msgid "[%s] Delivery Charges for %s"
+msgstr "[%s] ค่าจัดส่งสำหรับ %s"
+
+#. module: sale_amazon_spapi
+#: code:addons/sale_amazon_spapi/models/amazon_account.py:0
+#, python-format
+msgid "[%s] Gift Wrapping Charges for %s"
+msgstr "[%s] ค่าห่อของขวัญสำหรับ %s"
